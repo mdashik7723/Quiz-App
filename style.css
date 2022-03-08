@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: papayawhip;
+    font-family: "Poppings", sans-serif;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.quiz-container {
+    background-color: lemonchiffon;
+    border-right: 10px;
+    box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+    width: 400px;
+}
+
+.quiz-header {
+    padding: 1rem;
+}
+
+h2 {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0rem;
+}
+
+ul li {
+    font-size: .9rem;
+    margin: .5rem;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: antiquewhite;
+    color: black;
+    padding: .2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    display: block;
+    width: 70%;
+}
+
+button:hover {
+    background-color: lightgoldenrodyellow;
+}
