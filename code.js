@@ -70,7 +70,7 @@ function getSelected (){
 }
 submitBtn.addEventListener("click",()=>{
     const answer = getSelected();
-    console.log(answer);
+    // console.log(answer);
     if(answer){
         currentQuiz++;
         if(currentQuiz<QuizData.length){
